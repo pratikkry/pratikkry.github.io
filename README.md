@@ -1,1 +1,1 @@
-# pratikkry.github.io
+# pratikkry.com
