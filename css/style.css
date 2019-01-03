@@ -313,7 +313,7 @@ textarea {height: inherit !important;}
 	padding: 10px;
 	margin-bottom: 20px;
 }
-.ftco-footer-social li {list-style: none; margin: 0 10px 10px 0; display: inline-block;}
+.ftco-footer-social li {list-style: none; margin: 0 10px 10px 0; display: inline-block; float: inherit;}
 .ftco-footer-social li a {
 	height: 60px;
 	width: 60px;
