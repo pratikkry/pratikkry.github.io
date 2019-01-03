@@ -488,11 +488,11 @@ textarea {height: inherit !important;}
 		}
 	}
 @media only screen and (max-width: 954px) {
-	.ftco-cover .ftco-vh-100 {min-height: 500px;}
+	.ftco-cover .ftco-vh-100 {min-height: 500px !important;}
 
 }
 @media only screen and (max-width: 768px) {
-	.ftco-cover .ftco-vh-100 {min-height: 400px;}
+	.ftco-cover .ftco-vh-100 {min-height: 400px !important;}
 
 }
 @media only screen and (max-width: 576px) {
