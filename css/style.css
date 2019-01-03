@@ -250,16 +250,9 @@ textarea {height: inherit !important;}
 .ftco-section.ftco-slant, .ftco-footer.ftco-slant {padding: 3em 0 12em 0;}
 .ftco-section .ftco-heading, .ftco-footer .ftco-heading {font-size: 40px; line-height: 1.5;}
 @media screen and (max-width: 768px) {
-	.ftco-section .ftco-heading,
-	.ftco-footer .ftco-heading {
-		font-size: 30px;
-		}
+	.ftco-section .ftco-heading, .ftco-footer .ftco-heading {font-size: 30px;}
 	}
-.ftco-section.bg-light,
-.ftco-footer.bg-light {
-	background: #f2f2f2 !important;
-}
-
+.ftco-section.bg-light, .ftco-footer.bg-light {background: #f2f2f2 !important;}
 .ftco-bg-dark {background: #263135;}
 .ftco-bg-light {background: #fff;}
 .ftco-footer {font-size: 16px;}
