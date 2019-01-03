@@ -490,3 +490,21 @@ textarea {height: inherit !important;}
 		stroke-dashoffset: -136px;
 		}
 	}
+@media only screen and (max-width: 954px) {
+
+
+}
+@media only screen and (max-width: 768px) {
+
+
+}
+@media only screen and (max-width: 540px) {
+	.ftco-footer-social li a {
+		height: 48px;
+		width: 48px;
+	}
+	.ftco-footer-social li a span {
+		font-size: 24px;
+	}
+
+}
