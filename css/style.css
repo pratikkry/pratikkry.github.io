@@ -303,6 +303,13 @@ textarea {height: inherit !important;}
 .ftco-pricing .ftco-price-per strong {color: #000;}
 .ftco-pricing .ftco-price-per span {font-size: 20px;}
 .ftco-pricing ul li {margin-bottom: 10px;}
+#section-about .blog-list {
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 20px;
+}
 .ftco-footer-social li {list-style: none; margin: 0 10px 10px 0; display: inline-block;}
 .ftco-footer-social li a {
 	height: 60px;
