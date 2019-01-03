@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5,
 	transition: .3s all ease-out;
 }
 .ftco-navbar-light.scrolled .navbar-brand {color: #000;}
-.navbar-brand {font-weight: 700; letter-spacing: .1em; color: #0c2e8a !important;}
+.navbar-brand {font-weight: 700; letter-spacing: .1em; color: #333 !important;}
 .bg-image, .ftco-cover {background-size: cover; background-repeat: no-repeat;}
 .ftco-cover {background-position: center center;}
 .ftco-cover .ftco-heading {font-size: 64px; font-weight: 700; line-height: 1.34; color: #0c2e8a;}
@@ -319,13 +319,14 @@ textarea {height: inherit !important;}
 	width: 60px;
 	display: block;
 	float: left;
-	background: rgba(255, 255, 255, 0.05);
+	background: #9400d3;
 	border-radius: 50%;
 	position: relative;
 }
 .ftco-footer-social li a span {
 	position: absolute;
 	font-size: 26px;
+	color: #fff;
 	top: 50%;
 	left: 50%;
 	width: auto;
@@ -334,7 +335,13 @@ textarea {height: inherit !important;}
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-.ftco-footer-social li a:hover {color: #fff;}
+.ftco-footer-social li a span:hover {
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
 .footer-small-nav > li {display: inline-block;}
 .footer-small-nav > li a {margin: 0 10px 10px 0;}
 .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {color: #4586FF;}
