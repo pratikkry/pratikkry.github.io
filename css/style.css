@@ -247,7 +247,7 @@ textarea {height: inherit !important;}
 .bg-primary {background: #4586FF !important;}
 .ftco-section,
 .ftco-footer {
-	padding: 4em 0 1em 0;
+	padding: 4em 0 0.8em 0;
 }
 .ftco-section.ftco-slant,
 .ftco-footer.ftco-slant {
@@ -499,7 +499,8 @@ textarea {height: inherit !important;}
 
 }
 @media only screen and (max-width: 576px) {
-	.head-btn .btn-primary{margin-bottom: 10px;}
+	.head-btn .btn-primary {margin-bottom: 10px;}
+	.ftco-footer {text-align: center;}
 	.ftco-footer-social li a {height: 48px;width: 48px;}
 	.ftco-footer-social li a span {font-size: 24px;}
 }
