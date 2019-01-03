@@ -245,10 +245,7 @@ textarea {height: inherit !important;}
 	}
 .ftco-animate {opacity: 0; visibility: hidden;}
 .bg-primary {background: #4586FF !important;}
-.ftco-section,
-.ftco-footer {
-	padding: 4em 0 0.8em 0;
-}
+.ftco-section, .ftco-footer {padding: 4em 0 1em 0;}
 .ftco-section.ftco-slant,
 .ftco-footer.ftco-slant {
 	padding: 7em 0 22em 0;
@@ -491,11 +488,11 @@ textarea {height: inherit !important;}
 		}
 	}
 @media only screen and (max-width: 954px) {
-
+	.ftco-cover .ftco-vh-100 {min-height: 500px;}
 
 }
 @media only screen and (max-width: 768px) {
-
+	.ftco-cover .ftco-vh-100 {min-height: 400px;}
 
 }
 @media only screen and (max-width: 576px) {
