@@ -6,7 +6,7 @@ body {
 	line-height: 1.8;
 	font-size: 16px;
 	background: #fff;
-	color: #859196;
+	color: #555;
 }
 a {
 	-webkit-transition: .3s all ease;
@@ -286,9 +286,7 @@ textarea {height: inherit !important;}
 }
 .ftco-pricing h2 {font-size: 17px; text-transform: uppercase;}
 .ftco-pricing .ftco-price-per {font-size: 70px;}
-.ftco-pricing .ftco-price-per sup {font-size: 20px; top: -1.5em;}
 .ftco-pricing .ftco-price-per strong {color: #000;}
-.ftco-pricing .ftco-price-per span {font-size: 20px;}
 .ftco-pricing ul li {margin-bottom: 10px;}
 #section-about .blog-list {
 	background-color: #fff;
