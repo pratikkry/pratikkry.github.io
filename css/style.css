@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5,
 	font-weight: normal;
 	color: #000;
 }
-#section-works figure {margin: 0 !important;}
+#section-works img {max-width: 300px; max-height: 225px;}
 .text-primary {color: #4586FF !important;}
 .ftco-navbar-light {
 	background: #fff !important;
