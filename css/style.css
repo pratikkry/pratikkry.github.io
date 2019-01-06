@@ -110,6 +110,7 @@ h1, h2, h3, h4, h5,
 .ftco-cover .ftco-subheading, .ftco-cover p {color: #111;}
 @media screen and (max-width: 768px) {
 	.ftco-cover .btn {width: 100% !important; border: 1px solid red;}
+	.ftco-cover .ftco-vh-100 {min-height: 400px !important;}
 }
 .ftco-cover a {position: relative; color: #fff;}
 .ftco-cover a:before {
@@ -419,10 +420,6 @@ textarea {height: inherit !important;}
 	}
 @media only screen and (max-width: 954px) {
 	.ftco-cover .ftco-vh-100 {min-height: 500px !important;}
-
-}
-@media only screen and (max-width: 768px) {
-	.ftco-cover .ftco-vh-100 {min-height: 400px !important;}
 
 }
 @media only screen and (max-width: 576px) {
