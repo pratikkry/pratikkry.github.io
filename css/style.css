@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5,
 #section-works figure {margin: 0 !important;}
 .text-primary {color: #4586FF !important;}
 .ftco-navbar-light {
-	background: transparent !important;
+	background: #fff !important;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5,
 }
 @media screen and (max-width: 991px) {
 	.ftco-navbar-light {background: #fff !important; top: 0; position: relative;}
+}
+@media screen and (min-width: 991px) {
+	#section-works .row-equal {display: flex; display: -webkit-flex; flex-wrap: wrap;}
 }
 .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
 	color: #555;
